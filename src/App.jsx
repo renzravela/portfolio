@@ -38,6 +38,7 @@ function App() {
           <Route path="/works" element={<Works />}></Route>
         </Routes>
       </Router>
+      <Home></Home>
       <div className="setMode">
         <span className="setMode_btn btn" onClick={changeTheme}>
           <FontAwesomeIcon icon={["fas", mode]} size="xl" />
