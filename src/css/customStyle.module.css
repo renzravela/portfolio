@@ -1,0 +1,30 @@
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.subTitle{
+    font-size: medium;
+    font-weight: 100;
+    opacity: .8;
+}
+
+.title_center{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.subTitle_center{
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+}
+
+
+@media all and (max-width: 576px){
+    .title, .subTitle{
+        text-align: center;
+    }
+
+}
