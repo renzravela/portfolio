@@ -1,9 +1,9 @@
 import profile from "../assets/me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCodepen,
+  faSquareFacebook,
   faGithub,
-  faDribbble,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
@@ -28,14 +28,14 @@ const Banner = () => {
           dynamic and visually appealing, user-friendly websites.
         </p>
         <div className="banner_links">
-          <a href="">
-            <FontAwesomeIcon icon={faCodepen} />
+          <a href="https://www.facebook.com/Renz.Aerol" target="blank">
+            <FontAwesomeIcon icon={faSquareFacebook} />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/renz-aerol-ravela/" target="blank">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="https://github.com/renzravela" target="blank">
             <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a href="">
-            <FontAwesomeIcon icon={faDribbble} />
           </a>
         </div>
       </div>

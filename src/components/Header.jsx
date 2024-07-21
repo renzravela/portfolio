@@ -1,7 +1,7 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import resume_doc from "../assets/resume.pdf";
+import resume_doc from "../assets/resume_renz_ravela.pdf";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
@@ -79,7 +79,7 @@ const Header = () => {
               </Nav>
               <Nav>
                 <Nav.Item>
-                  <Nav.Link id="resume" href={resume_doc} download="resume_doc">
+                  <Nav.Link id="resume" href={resume_doc} download="RenzRavela-Resume">
                     Download CV
                   </Nav.Link>
                 </Nav.Item>

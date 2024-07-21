@@ -11,18 +11,18 @@ const About = () => {
         <Row className="about_description flex-column">
           <Col>
             <p>
-              My name is Renz Ravela. I`m a college student and
-              currently practicing my skills in developing and designing
-              websites and applications. I love to make complex things simple
-              and easy to use.
+            Hello, I`m Renz Aerol Ravela, a recent graduate from Central Luzon State University. 
+            With a passion for developing and designing websites and applications, 
+            I strive to make complex concepts simple and user-friendly. 
+            My goal is to create intuitive and efficient solutions that enhance user experiences.
             </p>
           </Col>
           <Col>
             <p>
-              Over the past years, I`ve gained experience in developing and
-              designing websites, mostly in the frontend aspect because I enjoy
-              learning and designing the best user experience and interface for
-              the user.
+            Over the past one and a half years, I`ve gained valuable experience as a freelancer, 
+            primarily in developing and designing both the backend and frontend aspects of websites. 
+            I am passionate about learning and creating the best user experiences and interfaces, 
+            ensuring that every project I work on is both functional and user-friendly.
             </p>
           </Col>
         </Row>
@@ -53,21 +53,33 @@ const About = () => {
                 icon={`js`}
               />
               <Skill
+                title={`React`}
+                description={`Developing the skills to create dynamic and interactive web app, enhancing my expertise in front-end development.`}
+                specifics={[]}
+                icon={`react`}
+              />
+              <Skill
                 title={`PHP`}
                 description={`I have hands-on experience in PHP, I create dynamic and responsive websites with efficient backend functionalities.`}
-                specifics={[`Laravel`, `CodeIgniter`]}
+                specifics={[`OOP`, `MVC`]}
                 icon={`php`}
               />
               <Skill
-                title={`React`}
-                description={`Developing the skills to create dynamic and interactive web app, enhancing my expertise in front-end development.`}
-                specifics={[`TypeScript`]}
-                icon={`react`}
+                title={`Laravel`}
+                description={`Working on backend is my forte. Making my web application functional is my ultimate agenda.`}
+                specifics={[`Livewire`]}
+                icon={`laravel`}
+              />
+              <Skill
+                title={`CodeIgniter`}
+                description={`Specializing in backend development using CodeIgniter. I have intermediate knowledge on creating robust and scalable web applications.`}
+                specifics={[]}
+                icon={`free-code-camp`}
               />
               <Skill
                 title={`UI Design`}
                 description={`I'm proficient in Figma and constantly learning the best modern UI and UX for applications and websites.`}
-                specifics={[`Figma`, `Adobe XD`, `Adobe Photoshop`]}
+                specifics={[`Figma`]}
                 icon={`figma`}
               />
             </Row>
