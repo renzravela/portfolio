@@ -32,6 +32,7 @@ function App() {
   };
   return (
     <div style={style} className="wrapper__">
+      <h2>Hello</h2>
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
