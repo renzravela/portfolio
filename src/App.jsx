@@ -2,9 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Works from "./components/Project_Works/Works";
 
 function App() {
   const [style, changeStyle] = useState({
@@ -32,13 +30,7 @@ function App() {
   };
   return (
     <div style={style} className="wrapper__">
-      <h2>Hello</h2>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/works" element={<Works />}></Route>
-        </Routes>
-      </Router>
+      <Home/>
       <div className="setMode">
         <span className="setMode_btn btn" onClick={changeTheme}>
           <FontAwesomeIcon icon={["fas", mode]} size="xl" />

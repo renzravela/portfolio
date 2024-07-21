@@ -1,14 +1,11 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Project from "./Project";
 import customStyle from "../css/customStyle.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import RaceReady from "./Project_Works/bgs/f1.png";
 import BattleForge from "./Project_Works/bgs/dota2.png";
-import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
-  const navigate = useNavigate();
+
 
   return (
     <section id="projects" className="project_section">
@@ -33,20 +30,6 @@ const Projects = () => {
                 bg={BattleForge}
               />
             </Row>
-            <div className="explore_more p-2">
-              <Button
-                className="explore_btn"
-                onClick={() => {
-                  navigate("/works");
-                }}
-              >
-                Explore More{" "}
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  className="explore_icon"
-                />
-              </Button>
-            </div>
           </Col>
         </Row>
       </Container>
