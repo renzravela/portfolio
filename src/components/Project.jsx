@@ -6,7 +6,7 @@ const Project = ({title, description, bg, url}) => {
         <Card.Body className="project_content">
           <Card.Title className="card_title">{title}</Card.Title>
           <Card.Text className="card_body">{description}</Card.Text>
-          <Button href={url} className="project_btn">See more</Button>
+          <Button href={url} target="blank" className="project_btn">See more</Button>
         </Card.Body>
       </Card>
   );

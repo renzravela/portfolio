@@ -1,4 +1,4 @@
-import profile from "../assets/me.png";
+import profile from "../assets/me2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareFacebook,
