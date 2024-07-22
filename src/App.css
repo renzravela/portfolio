@@ -507,3 +507,8 @@ textarea {
     margin: 21.4rem 0 0 0 !important;
   }
 }
+
+.custom_toast{
+  background-color: var(--clr-dominant) !important;
+  color: white !important;
+}
