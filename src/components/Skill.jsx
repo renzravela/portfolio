@@ -1,13 +1,13 @@
 import { Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Skill = ({ title, description, specifics, icon }) => {
+const Skill = ({ title, description, specifics, icon, icon_type }) => {
   return (
     <Card className="skill_card">
       <Card.Body>
         <Card.Title className="skill_title">
           <span>
-            <FontAwesomeIcon icon={["fab", icon]} className="skill_icon" size="2xl"/>
+            <FontAwesomeIcon icon={[icon_type, icon]} className="skill_icon" size="2xl"/>
           </span>
           {" "}
           {title}

@@ -2,6 +2,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Project from "./Project";
 import customStyle from "../css/customStyle.module.css";
 import RaceReady from "./Project_Works/bgs/f1.png";
+import guidance from "./Project_Works/bgs/guidance.png";
+import landing_page from "./Project_Works/bgs/landing.png";
+import movie_website from "./Project_Works/bgs/Movie.png";
+import gogoanime from "./Project_Works/bgs/GogoAnime.png";
+import tribute from "./Project_Works/bgs/Tribute.png";
 
 const Projects = () => {
   return (
@@ -22,6 +27,38 @@ const Projects = () => {
                 bg={RaceReady}
                 url={`https://renzravela.github.io/project-racereadypro/`}
               />
+              <Project
+                title={`Guidance Management System`}
+                description={`Full-stack web management system for the school's guidance request and reporting functions. Built mainly by Laravel.`}
+                bg={guidance}
+                url={`#`}
+                title_btn={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
+              />
+              <Project
+                title={`Sample Landing Page UI`}
+                description={`Sample landing page UI built with react and tailwind.`}
+                bg={landing_page}
+                url={`https://renzravela.github.io/landing-page-sample/`}
+              />
+              <Project
+                title={`Movie Review System`}
+                description={`Full-stack web application for movie review and rating system. Built mainly by Laravel.`}
+                bg={movie_website}
+                url={`#`}
+                title_btn={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
+              />
+              <Project
+                title={`GogoAnime Clone`}
+                description={`Your All-in-One Formula 1 Companion, Bringing the Thrill of the Track to Your Fingertips with Real-Time Updates, Interactive Simulations, and Exclusive Content!`}
+                bg={gogoanime}
+                url={`https://renzravela.github.io/gogoanime_website_clone/`}
+              />
+              <Project
+                title={`Tribute Page`}
+                description={`Your All-in-One Formula 1 Companion, Bringing the Thrill of the Track to Your Fingertips with Real-Time Updates, Interactive Simulations, and Exclusive Content!`}
+                bg={tribute}
+                url={`https://renzravela.github.io/tribute/`}
+              />
             </Row>
           </Col>
         </Row>
@@ -31,3 +68,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
