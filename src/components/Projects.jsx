@@ -33,6 +33,7 @@ const Projects = () => {
                 bg={guidance}
                 url={`#`}
                 title_btn={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
+                small_text={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
               />
               <Project
                 title={`Sample Landing Page UI`}
@@ -46,6 +47,7 @@ const Projects = () => {
                 bg={movie_website}
                 url={`#`}
                 title_btn={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
+                small_text={`This work is a freelance project and I like to keep it private. Contact me for more info about this project.`}
               />
               <Project
                 title={`GogoAnime Clone`}
