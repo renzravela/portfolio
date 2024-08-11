@@ -99,7 +99,7 @@ const About = () => {
               />
               <Skill
                 title={`Java`}
-                description={`"Building proficiency in Java to craft robust and scalable applications, advancing my expertise in backend development."`}
+                description={`Building proficiency in Java to craft robust and scalable applications, advancing my expertise in backend development.`}
                 specifics={[`Java GUI`]}
                 icon={`java`}
                 icon_type={`fa-brands`}
