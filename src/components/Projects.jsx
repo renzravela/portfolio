@@ -6,7 +6,7 @@ import guidance from "./Project_Works/bgs/guidance.png";
 import landing_page from "./Project_Works/bgs/landing.png";
 import movie_website from "./Project_Works/bgs/Movie.png";
 import gogoanime from "./Project_Works/bgs/GogoAnime.png";
-import tribute from "./Project_Works/bgs/Tribute.png";
+import form from "./Project_Works/bgs/form-firebase.jpg";
 
 const Projects = () => {
   return (
@@ -56,10 +56,10 @@ const Projects = () => {
                 url={`https://renzravela.github.io/gogoanime_website_clone/`}
               />
               <Project
-                title={`Tribute Page`}
-                description={`Your All-in-One Formula 1 Companion, Bringing the Thrill of the Track to Your Fingertips with Real-Time Updates, Interactive Simulations, and Exclusive Content!`}
-                bg={tribute}
-                url={`https://renzravela.github.io/tribute/`}
+                title={`React Form with Firebase`}
+                description={`Sample form UI using React (Vite) with backend integration of NoSQL firebase.`}
+                bg={form}
+                url={`https://renzravela.github.io/sample-form-with-react-and-firebase/`}
               />
             </Row>
           </Col>

@@ -51,14 +51,14 @@ const About = () => {
               <Skill
                 title={`JavaScript`}
                 description={`I'm currently focusing and constantly learning JavaScript and paying attention to code quality.`}
-                specifics={[`ES6 ES7`, `Node.js`, 'Express.js', `MERN`, `JAM`]}
+                specifics={[`ES6`, `Node.js`, 'Express.js', `MERN`, `JAM`]}
                 icon={`js`}
                 icon_type={`fa-brands`}
               />
               <Skill
                 title={`React`}
                 description={`Developing the skills to create dynamic and interactive web app, enhancing my expertise in front-end development.`}
-                specifics={[]}
+                specifics={['Vite']}
                 icon={`react`}
                 icon_type={`fa-brands`}
               />
