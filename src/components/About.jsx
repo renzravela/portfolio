@@ -51,7 +51,7 @@ const About = () => {
               <Skill
                 title={`JavaScript`}
                 description={`I'm currently focusing and constantly learning JavaScript and paying attention to code quality.`}
-                specifics={[`ES6 ES7`, `Node.js`, 'Express.js']}
+                specifics={[`ES6 ES7`, `Node.js`, 'Express.js', `MERN`, `JAM`]}
                 icon={`js`}
                 icon_type={`fa-brands`}
               />
@@ -95,6 +95,13 @@ const About = () => {
                 description={`I'm proficient in Figma and constantly learning the best modern UI and UX for applications and websites.`}
                 specifics={[`Figma`]}
                 icon={`figma`}
+                icon_type={`fa-brands`}
+              />
+              <Skill
+                title={`Java`}
+                description={`"Building proficiency in Java to craft robust and scalable applications, advancing my expertise in backend development."`}
+                specifics={[`Java GUI`]}
+                icon={`java`}
                 icon_type={`fa-brands`}
               />
             </Row>
