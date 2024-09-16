@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Project from "./Project";
 import customStyle from "../css/customStyle.module.css";
-import RaceReady from "./Project_Works/bgs/f1.png";
 import guidance from "./Project_Works/bgs/guidance.png";
 import landing_page from "./Project_Works/bgs/landing.png";
 import movie_website from "./Project_Works/bgs/Movie.png";
@@ -21,12 +20,6 @@ const Projects = () => {
               pays a lot of attention to small but important details.
             </p>
             <Row className="project_list">
-              <Project
-                title={`RaceReady Pro: F1`}
-                description={`Your All-in-One Formula 1 Companion, Bringing the Thrill of the Track to Your Fingertips with Real-Time Updates, Interactive Simulations, and Exclusive Content!`}
-                bg={RaceReady}
-                url={`https://renzravela.github.io/project-racereadypro/`}
-              />
               <Project
                 title={`Guidance Management System`}
                 description={`Full-stack web management system for the school's guidance request and reporting functions. Built mainly by Laravel.`}
